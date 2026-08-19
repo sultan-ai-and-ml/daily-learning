@@ -2,41 +2,6 @@
 #include <vector>
 using namespace std;
 
-/*int main() {
-    vector<int> marks;
-    int numStudents;
-    
-    cout << "Enter number of students: ";
-    cin >> numStudents;
-    
-
-    for(int i = 0; i < numStudents; i++) {
-        int mark;
-        cout << "Enter mark for student " << i+1 << ": ";
-        cin >> mark;
-        marks.push_back(mark);
-    }
-    
-    
-    int sum = 0;
-    for(int i = 0; i < marks.size(); i++) {
-        sum = sum + marks[i];
-    }
-    
-    
-    double average = (double)sum / marks.size();
-    cout << "Average mark: " << average << endl;
-    
-    int highest = marks[0];
-    for(int mark : marks) {
-        if(mark > highest) {
-            highest = mark;
-        }
-    }
-    cout << "Highest mark: " << highest << endl;
-    
-    return 0;
-}*/
 
 
 int main(){
